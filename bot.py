@@ -15,7 +15,7 @@ https://miraelretoenvivo.short.gy/laura
 """
 
 while True:
-    requests.post(
+    r = requests.post(
         f"https://api.telegram.org/bot{TOKEN}/sendMessage",
         data={
             "chat_id": CHAT_ID,
@@ -23,5 +23,7 @@ while True:
         }
     )
 
-    print("Mensaje enviado")
+    print(r.status_code)
+    print(r.text)
+
     time.sleep(60)
