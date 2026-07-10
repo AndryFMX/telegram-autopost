@@ -5,13 +5,9 @@ TOKEN="8926173750:AAEl_wflDiJPtY6aDQwbOG-yOqqZyfHhBos"
 CHAT_ID="@lauramendosaf777"
 
 TEXT="""
-AMOR AQUÍ EL RETO 🚫‼️🔴
-🤤🌶️🔥🙈👇🏻
-https://miraelretoenvivo.short.gy/laura
+Hola 👋
 
-SI NO LES FUNCIONA EL LINK ENTREN AQUÍ
-👇🏻🙈🔥💕
-https://miraelretoenvivo.short.gy/laura
+Este mensaje fue enviado automáticamente.
 """
 
 url=f"https://api.telegram.org/bot{TOKEN}/sendMessage"
