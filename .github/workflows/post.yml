@@ -1,0 +1,10 @@
+name: Telegram Auto Post
+
+on:
+  workflow_dispatch:
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hola"
